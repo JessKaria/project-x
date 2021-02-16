@@ -7,7 +7,7 @@ const Podcast = () => {
   const [podcastGenre, updatePodcastGenre] = useState('All')
 
   useEffect(() => {
-    axios.get('https://cors-anywhere.herokuapp.com/https://itunes.apple.com/search?term=podcast&sort=recent&limit=200.')
+    axios.get('hhttps://stormy-atoll-29846.herokuapp.com/https://itunes.apple.com/search?term=podcast&sort=recent&limit=200.')
       .then(resp => {
         updatePodcast(resp.data.results)
       })
