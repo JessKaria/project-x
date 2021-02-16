@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Kanit:wght@500&family=Montserrat:wght@300');
+
+* {
+  font-family: 'Bungee Shade', cursive;
+}
+
+h1 {
+  font-size: 28px;
+  padding: 5px;
+}
+
+h5 {
+  text-align: left;
+  padding: 1px;
+  margin: 1px;
+  font-size: 14px;
+  font-family: 'Kanit', sans-serif;
+  color: white;
+}
+
+h2{
+  color: white;
+  font-size: 32px;
+  padding: 5px;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+p {
+  text-align: left;
+  padding: 1px;
+  font-size: 11px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+select {
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+  background-color: #000103;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FC440F;
+  border: 1px white solid;
+  padding: 5px;
+  color: white;
+}
+
+.show-modal {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  justify-content: center;
+  padding: 50px;
+  z-index: 50;
+  background-color: #0a0a0a;
+}
+
+.modal-show {
+  background-color: #FC440F;
+}
+
+.inner-wrap {
+  margin: 30px
+}
+
+
+.outerfilter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FC440F;
+  height: 50px;
+}
+
+.wrapper {
+  margin: 10px;
+}
+
+
+.container-main {
+  background-color: #FEFDFF;
+  border: solid 2px #FC440F;
+  border-radius: 10px;
+  margin: 40px;
+}
+
+
+
+.main-box {
+  height: 450px;
+  overflow-y:scroll;
+  overflow-x:scroll;
+  margin: 20px;
+}
+
+
+.tile  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+.text  {
+  flex-direction: column;
+  flex: 5;
+  justify-content: space-evenly;
+}
+
+.image {
+  flex-direction: row;
+  flex: 2;
+  border: solid 1px #FC440F;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 270px;
+  height: 120px;
+  margin: 15px;
+  padding: 25px;
+  align-items: center;
+  background-color: #0e0e0e;
+}
+
+.footer.footer {
+  height: 40px;
+}
+
+
+
+
+
+
