@@ -7,7 +7,7 @@ const Music = () => {
   const [musicGenre, updateMusicGenre] = useState('All')
 
   useEffect(() => {
-    axios.get('https://itunes.apple.com/search?term=music&sort=recent&limit=200.')
+    axios.get('https://cors-anywhere.herokuapp.com/https://itunes.apple.com/search?term=music&sort=recent&limit=200.')
       .then(resp => {
         updateMusic(resp.data.results)
       })

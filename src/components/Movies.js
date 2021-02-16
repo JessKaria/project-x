@@ -7,7 +7,7 @@ const Movies = () => {
   const [movieGenre, updateMovieGenre] = useState('All')
 
   useEffect(() => {
-    axios.get('https://itunes.apple.com/search?term=films&sort=recent&limit=200.')
+    axios.get('https://cors-anywhere.herokuapp.com/https://itunes.apple.com/search?term=films&sort=recent&limit=200.')
       .then(resp => {
         updateMovies(resp.data.results)
       })
