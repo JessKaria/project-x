@@ -9,11 +9,11 @@ This was my second project at General Assembly SEI course, London. We were asked
 
 And we were asked to this as a weekend project.
 
-You can view our App on GitHub pages [here](https://github.com/JessKaria/project-x), or find the GitHub repo [here](https://jesskaria.github.io/project-x).
+You can view my GitHub repo [here](https://github.com/JessKaria/project-x), or find the live App [here](https://jesskaria.github.io/project-x).
 
 ## Introducing API-CHOONZ
 
-![here](https://github.com/JessKaria/project-2/blob/main/p2.gif?raw=true)
+![here](https://github.com/JessKaria/project-x/blob/main/src/api-choonz.png?raw=true)
 
 ## Brief...
 
