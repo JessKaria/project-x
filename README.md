@@ -158,7 +158,7 @@ export default MoviesModal
 
 ## Challenges
 
-I had some trouble getting the modals to work as this branched into two areas we hadn't yet covered. I did some reaserch and was able to build a really custom modal that played the audio and video depending on the media type. In addition, I had some issues with deployment due to a CORS violation, I solved this by using a proxying the request with a CORS anywhere link.
+I had some trouble getting the modals to work as this branched into two areas we hadn't yet covered. I did some research and was able to build a custom modal that played the audio and video depending on the media type. In addition, I had some issues with deployment due to a CORS violation, I solved this by proxying the request with a CORS anywhere link.
 
 ## Wins !
 
@@ -193,9 +193,9 @@ export default Modal
 
 ## Bugs !
 
-The modal for Movies and Music don't quite align in the center 
-The hyperlinks in the Podcast section do open a new link.
-The styling and layout could use some work.
+- The modal for Movies and Music don't quite align in the center 
+- The hyperlinks in the Podcast section do open a new link.
+- The styling and layout could use some work.
 
 
 ## What I learned...
