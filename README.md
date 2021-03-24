@@ -6,8 +6,7 @@
 ## Overview
 
 This was my second project at General Assembly SEI course, London. We were asked to build a single page React Web Application that consumes a public API. 
-
-And we were asked to this as a weekend project.
+This was a weekend project, I opted to choose the iTunes API for the ease of access and how data was stored. I used React, React Hooks and Axios to fetch data and render it from the front end. I also built a custom modal to play media content.
 
 You can view my GitHub repo [here](https://github.com/JessKaria/project-x), or find the live App [here](https://jesskaria.github.io/project-x).
 
