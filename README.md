@@ -13,7 +13,7 @@ You can view my GitHub repo [here](https://github.com/JessKaria/project-x), or f
 
 ## Introducing API-CHOONZ
 
-![here](https://github.com/JessKaria/project-x/blob/main/src/api-choonz.png?raw=true)
+![here](https://github.com/JessKaria/project-x/blob/main/src/Untitled%20design%20(1).png?raw=true)
 
 ## Brief...
 
