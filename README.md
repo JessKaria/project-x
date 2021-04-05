@@ -51,7 +51,7 @@ You can view my GitHub repo [here](https://github.com/JessKaria/project-x), or f
 
 I chose to use the iTunes API for the simplicity of the results it displayed and the ability to increase the number of search results. After sending some test requests and reading the documentation I had a clear understanding of how the response data was structured, I drew a rough illustration of what I wanted to build, including the functionality I wanted my app to have.
 
-As this was my first time building anything in React, I really wanted to focus on delivering DRY code as well as taking advantage of the modular set up React offers. Below was the first section that I built, taking advantange of React Hooks, useState and useEffect to render data from this API. Firstly I used Axios to fetch data from the the API, I then saved the array (response) in state so I could map over later to render data to the UI.
+As this was my first time building anything in React, I really wanted to focus on delivering DRY code as well as taking advantage of the modular set up React offers. Below was the first section that I built, taking advantage of React Hooks, useState and useEffect to render data from this API. Firstly I used Axios to fetch data from the API, I then saved the array (response) in state so I could map over later to render data to the UI.
 
 In addition, part of our brief was to build functionality to 'have our UI update as a user interacts with it'. I opted for using .filter() to filter over data saved in state and then mapped over that function to render the data. To ensure that the data rendered correctly on page load, I set the starting state of my movieGenre to 'All'. 
 
@@ -118,7 +118,7 @@ const Movies = () => {
 
 export default Movies
 ```
-For rendering the JSX, I passed in the props from the parent component, in addition I opted to import another Modal component I had created, so I could play media content in a pop-up modal. Once again I took advantage of useState here, setting the defalut value of my modal to a Boolean, false. I then added an onClick={() => modalIsOpen(true)}> event listener to toggle the modal pop-up on click. To play the media I imported 'ReactPlayer' from 'react-player'.
+For rendering the JSX, I passed in the props from the parent component, in addition I opted to import another Modal component I had created, so I could play media content in a pop-up modal. Once again I took advantage of useState here, setting the initial value of my modal to a Boolean, false. I then added an onClick={() => modalIsOpen(true)}> event listener to toggle the modal pop-up on click. To play the media I imported 'ReactPlayer' from 'react-player'.
 
 Modal Component 🍿
 
@@ -164,7 +164,7 @@ I had some trouble getting the modals to work as this branched into two areas we
 
 I really wanted to make the UI for this particular project something a user would find useful browsing, and more than just filtering the results. I set myself a challenge to build a custom pop-up modal that could render the media for the user. 
 
-After some googling, I found a reccomended way to create a component that 'exists outside the DOM hierachy' by using 'ReactDOM.createPortal(child, container).
+After some googling, I found a recommended way to create a component that 'exists outside the DOM hierarchy' by using 'ReactDOM.createPortal(child, container).
 
 Modal Component 📺
 
@@ -189,18 +189,12 @@ const Modal = ({ open, children, onClose }) => {
 export default Modal
 ```
 
-
-
 ## Bugs !
 
 - The modal for Movies and Music don't quite align in the center 
 - The hyperlinks in the Podcast section do open a new link.
 - The styling and layout could use some work.
 
-
 ## What I learned...
 
 This was my first time building something with React and fetching data from a public API, I got a better understanding how React's render method and lifecycle, in addition I got a really good insight into how to take advantage of React Hooks, in particular useEffect and useState to render data onload and saving data in state to then run methods on later. 
-
-
-
