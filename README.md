@@ -1,4 +1,4 @@
-### ![GA](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png) General Assembly, SEI 
+![GA](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png) General Assembly, SEI 
 
 
 ## Project X | API Choonz 🎹 🎥 🎧 
@@ -21,7 +21,7 @@ You can view my GitHub repo [here](https://github.com/JessKaria/project-x), or f
 * Filter that data somehow in your app. 
 * Have your UI update as your user interacts with your page.
 
-## Technologies used !
+## Technologies used!
 
 - React
 - React Hooks
@@ -118,7 +118,7 @@ const Movies = () => {
 
 export default Movies
 ```
-For rendering the JSX, I passed in the props from the parent component, in addition I opted to import another Modal component I had created, so I could play media content in a pop-up modal. Once again I took advantage of useState here, setting the initial value of my modal to a Boolean, false. I then added an onClick={() => modalIsOpen(true)}> event listener to toggle the modal pop-up on click. To play the media I imported 'ReactPlayer' from 'react-player'.
+For rendering the JSX, I passed in the props from the parent component; in addition, I opted to import another Modal component I had created, so I could play media content in a pop-up modal. Once again I took advantage of useState here, setting the initial value of my modal to a Boolean, false. I then added an onClick={() => modalIsOpen(true)}> event listener to toggle the modal pop-up on click. To play the media, I imported 'ReactPlayer' from 'react-player'.
 
 Modal Component 🍿
 
@@ -160,7 +160,7 @@ export default MoviesModal
 
 I had some trouble getting the modals to work as this branched into two areas we hadn't yet covered. I did some research and was able to build a custom modal that played the audio and video depending on the media type. In addition, I had some issues with deployment due to a CORS violation, I solved this by proxying the request with a CORS anywhere link.
 
-## Wins !
+## Wins!
 
 I really wanted to make the UI for this particular project something a user would find useful browsing, and more than just filtering the results. I set myself a challenge to build a custom pop-up modal that could render the media for the user. 
 
@@ -189,12 +189,15 @@ const Modal = ({ open, children, onClose }) => {
 export default Modal
 ```
 
-## Bugs !
+
+
+## Bugs!
 
 - The modal for Movies and Music don't quite align in the center 
 - The hyperlinks in the Podcast section do open a new link.
 - The styling and layout could use some work.
 
+
 ## What I learned...
 
-This was my first time building something with React and fetching data from a public API, I got a better understanding how React's render method and lifecycle, in addition I got a really good insight into how to take advantage of React Hooks, in particular useEffect and useState to render data onload and saving data in state to then run methods on later. 
+This was my first time building something with React and fetching data from a public API, I got a better understanding how React's render method and life cycle; in addition, I got a really good insight into how to take advantage of React Hooks, in particular useEffect and useState to render data onload and saving data in state to then run methods on later. 
